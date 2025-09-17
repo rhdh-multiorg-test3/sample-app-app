@@ -11,3 +11,11 @@ spec:
   git: github
   git_host_url: github.com
   git_owner_name: rhdh-multiorg-test3
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: sample-app-location
+spec:
+  targets:
+    - ./system.yaml
