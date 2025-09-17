@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-app
+  description: テストです。
+spec:
+  type: service
+  system: test-system
+  lifecycle: production
+  owner: group:default/ksuzumur
+  git: github
+  git_host_url: github.com
+  git_owner_name: rhdh-multiorg-test3
